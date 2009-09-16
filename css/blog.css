@@ -1,0 +1,126 @@
+/* http://www.colourlovers.com/palette/845780/No_idea */
+
+html {
+  /* http://www.hicksdesign.co.uk/journal/forcing-scrollbars-now-even-better */
+  height: 100%; 
+  margin-bottom: 1px;
+  background-color: #FEFEEB; 
+  margin: 0 auto 0 44px; 
+}
+
+.site {
+  background-color: white;
+}
+
+.title {
+  position: relative;
+  padding: 18px 0 0 0;
+  background-color: #FEFEEB; 
+}
+
+.title a {
+  position: absolute;
+  text-decoration: none;
+  font-size: 100%;
+  font-weight: bold;
+  font-style: italic;
+  color: #FF2C2B;
+  top: 28px;
+  right: 0;
+}
+
+#home, #post {
+  padding-top: 22px;
+  border: solid #888;
+  border-width: 1px 0 1px 1px;
+}
+
+#home h1 {
+  font-size: 140%;
+  font-style: italic;
+}
+
+#post h1 {
+  font-size: 180%;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 22px;
+  color: #FF2C2B;
+}
+
+#post h2, #post h3, #home h1 {
+  color: #489690;
+}
+
+#home ul li {
+  list-style: none;
+}
+
+a[href^="http:"], a[href^="mailto:"], a[href^="http:"]:visited, 
+a[href$=".pdf"], a[href$=".doc"], a[href$=".xls"], a[href$=".rss"], 
+a[href$=".rdf"], a[href^="aim:"] {
+  padding:2px 16px 2px 0;
+}
+
+blockquote {
+  font-size: 90%;
+  font-family: "DejaVu Sans", sans-serif;
+  font-style: normal;
+  width: 253px;
+  margin-top: 6px;
+  margin-left: 572px;
+  padding: 18px 22px 0 22px;
+  position: absolute;
+  background: #F2F1D6;
+  -moz-border-radius: 4px;  
+  color: #800;
+}
+
+blockquote img {
+  margin: 0 auto 12px auto;
+  display: block;
+}
+
+blockquote p.author {
+  margin-top: -1em;
+  padding-right: 44px;
+  color: #800;
+  font-style: italic;
+  text-align: right;
+}
+
+h2 {
+  font-size: 140%;
+  padding-bottom: 2px;
+  border-bottom: 2px dotted #489690;
+}
+
+h2, h3 {
+  color: #489690;
+}
+
+code {
+  margin: 0 2px;
+  padding: 0.06em 0.125em;
+  border: 1px solid #403B33;
+}
+
+pre code {
+  border: none;
+}
+
+pre {
+  border-left: 9px solid #FD9945;
+  margin-left: -49px;
+  padding: 0 0 0 49px;
+}
+
+/* tabele */
+
+caption {
+  text-align: right;
+}
+
+li ul {
+  margin-bottom: 1.5em;
+}

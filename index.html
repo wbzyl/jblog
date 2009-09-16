@@ -1,0 +1,28 @@
+---
+layout: index
+title: WB_Blog
+---
+
+<div id="home" class="prepend-1 span-13">
+
+  <blockquote>
+    <p>
+      Perfection is not when there’s nothing to add, but when there’s
+      nothing to take away.
+    </p>
+    <p class="author">- Antoine de Saint-Exupéry</p>
+  </blockquote>
+  
+  <h1>Posty</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  
+  <h1>Projekty Open Source</h1>
+  <ul class="posts">
+    <li><a href="http://github.com/wbzyl/iblog/">iBlog</a> — szablon jekyll-bloga</li>
+  </ul>
+
+</div>

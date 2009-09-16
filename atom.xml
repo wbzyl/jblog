@@ -1,0 +1,27 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Włodek Bzyl</title>
+ <link href="http://manta.univ.gda.pl/~wbzyl/atom.xml" rel="self"/>
+ <link href="http://manta.univ.gda.pl/~wbzyl/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://manta.univ.gda.pl/~wbzyl/</id>
+ <author>
+   <name>Włodek Bzyl</name>
+   <email>matwb@univ.gda.pl</email>
+ </author>
+
+ {% for post in site.posts %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="http://manta.univ.gda.pl/~wbzyl/{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>http://manta.univ.gda.pl/~wbzyl/{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endfor %}
+ 
+</feed>
