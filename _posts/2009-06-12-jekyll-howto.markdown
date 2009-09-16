@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jekyll-iBlog HOWTO
+title: Jekyll-Blog HOWTO
 ---
 
 <blockquote>
