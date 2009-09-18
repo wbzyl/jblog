@@ -8,7 +8,7 @@ Statyczne strony bloga generujemy za pomocą programu *jekyll*.
 Klikamy w ikonkę **fork** i natępnie klonujemy sforkowanego bloga
 na swoje konto na serwerze *Sigma*:
 
-<pre>git clone git://github.com/<i>twój login na <b>githubie</b></i>/iblog.git <i>nazwa wykładu</i>
+<pre>git clone git://github.com/⟨twój login na <b>githubie</b>⟩/iblog.git <i>nazwa wykładu</i>
 </pre>
 
 Na przykład, dla wykładu „Środowisko programisty” polecenie może wyglądać tak:
@@ -33,5 +33,5 @@ katalogu z blogiem, na przykład, takie polecenie:
 
 Po wykonaniu polecenia blog jest dostępny pod URI:
 
-<pre>http://sigma.inf.ug.edu.pl/~<i>twój login na <b>sigmie</b></i>/sp/
+<pre>http://sigma.inf.ug.edu.pl/~⟨twój login na <b>sigmie</b>⟩/sp/
 </pre>
