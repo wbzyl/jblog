@@ -1,4 +1,4 @@
-# Szablon jekyll-ibloga 
+# Szablon jekyll-bloga 
 
 Dostosowany do konfiguracji serwera *Sigma* szablon bloga.
 Statyczne strony bloga generujemy za pomocą programu *jekyll*.
@@ -8,12 +8,12 @@ Statyczne strony bloga generujemy za pomocą programu *jekyll*.
 Klikamy w ikonkę **fork** i natępnie klonujemy sforkowanego bloga
 na swoje konto na serwerze *Sigma*:
 
-<pre>git clone git://github.com/⟨twój login na <b>githubie</b>⟩/iblog.git <i>nazwa wykładu</i>
+<pre>git clone git://github.com/⟨twój login na <b>githubie</b>⟩/jblog.git <i>nazwa wykładu</i>
 </pre>
 
 Na przykład, dla wykładu „Środowisko programisty” polecenie może wyglądać tak:
 
-    git clone git://github.com/wbzyl/iblog.git sp
+    git clone git://github.com/wbzyl/jblog.git sp
 
 ## Jak zacząć?
 
