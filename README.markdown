@@ -3,17 +3,17 @@
 Dostosowany do konfiguracji serwera *Sigma* szablon bloga.
 Statyczne strony bloga generujemy za pomocą programu *jekyll*.
 
+
 ## Instalacja
 
 Klikamy w ikonkę **fork** i natępnie klonujemy sforkowanego bloga
 na swoje konto na serwerze *Sigma*:
 
-<pre>git clone git://github.com/⟨twój login na <b>githubie</b>⟩/jblog.git <i>nazwa wykładu</i>
+<pre>git clone git://github.com/⟨twój login na <b>githubie</b>⟩/jblog.git ⟨nazwa wykładu⟩
 </pre>
 
-Na przykład, dla wykładu „Środowisko programisty” polecenie może wyglądać tak:
+Na przykład, dla wykładu „Środowisko programisty” ⟨nazwa wykładu⟩ to `sp`.
 
-    git clone git://github.com/wbzyl/jblog.git sp
 
 ## Jak zacząć?
 
@@ -27,7 +27,7 @@ na przykład:
     2009-06-12-jekyll-howto.markdown
 
 Po napisaniu posta generujemy statyczną wersję bloga wykonując z
-katalogu z blogiem, na przykład, takie polecenie:
+katalogu z blogiem, takie polecenie:
 
     jekyll ~/public_html/sp
 
