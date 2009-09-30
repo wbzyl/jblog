@@ -5,10 +5,10 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Włodek Bzyl</title>
- <link href="http://manta.univ.gda.pl/~wbzyl/atom.xml" rel="self"/>
- <link href="http://manta.univ.gda.pl/~wbzyl/"/>
+ <link href="http://inf.ug.edu.pl/~wbzyl/atom.xml" rel="self"/>
+ <link href="http://inf.ug.edu.pl/~wbzyl/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://manta.univ.gda.pl/~wbzyl/</id>
+ <id>http://inf.ug.edu.pl/~wbzyl/</id>
  <author>
    <name>Włodek Bzyl</name>
    <email>matwb@univ.gda.pl</email>
@@ -17,9 +17,9 @@ layout: nil
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://manta.univ.gda.pl/~wbzyl/{{ post.url }}"/>
+   <link href="http://inf.ug.edu.pl/~wbzyl/{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://manta.univ.gda.pl/~wbzyl/{{ post.id }}</id>
+   <id>http://inf.ug.edu.pl/~wbzyl/{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
