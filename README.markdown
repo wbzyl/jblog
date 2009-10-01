@@ -17,7 +17,7 @@ Na przykład, dla wykładu „Środowisko programisty” ⟨nazwa wykładu⟩ to
 
 ## Jak zacząć?
 
-Wpisy do bloga umieszczamy w katalogu `_post`.
+Wpisy do bloga umieszczamy w katalogu `_posts`.
 Nazwy plików z postami tworzymy według schematu:
 
     rok-miesiąc-dzień-tytuł.markdown
