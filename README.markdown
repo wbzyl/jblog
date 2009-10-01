@@ -7,12 +7,17 @@ Statyczne strony bloga generujemy za pomocą programu *jekyll*.
 ## Instalacja
 
 Klikamy w ikonkę **fork** i natępnie klonujemy sforkowanego bloga
-na swoje konto na serwerze *Sigma*:
+na swoje konto na serwerze *Sigma*. Klona umieszczamy w katalogu
+*public_git*, który musimy wcześniej utworzyć.
 
-<pre>git clone git://github.com/⟨twój login na <b>githubie</b>⟩/jblog.git ⟨nazwa wykładu⟩
+Cała procedura może wyglądać tak:
+
+<pre>mkdir -p ~/public_git/
+cd ~/public_git/
+git clone git://github.com/⟨twój login na <b>githubie</b>⟩/jblog.git sp
 </pre>
 
-Na przykład, dla wykładu „Środowisko programisty” ⟨nazwa wykładu⟩ to `sp`.
+gdzie nazwa katalogu *sp* to skrót od „Środowiska programisty”.
 
 
 ## Jak zacząć?
@@ -27,7 +32,7 @@ na przykład:
     2009-06-12-jekyll-howto.markdown
 
 Po napisaniu posta generujemy statyczną wersję bloga wykonując z
-katalogu z blogiem, takie polecenie:
+katalogu z blogiem, czyli z katalogu **~/public_git/sp/** polecenie:
 
     jekyll ~/public_html/sp
 
