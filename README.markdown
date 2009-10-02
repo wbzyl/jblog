@@ -60,10 +60,9 @@ w pliku *atom.xml*:
     ...
 
 Logo przygotowałem w programie *inkscape*. 
-Plik *images/logo.svg* w formacie *SVG* zawiera tekst *WB@jBlog*,
-który należy zamienić. 
-
-W pliku *images/logo.svg* literki składane są fontem *OTF*
+Plik *images/logo.svg* w formacie *SVG* zawiera 
+nazwę mojego bloga *WB@jBlog*.
+W pliku *SVG* literki składane są fontem *OTF*
 [Cyklop](http://nowacki.strefa.pl/cyklop.html). Komputerową
 wersję tego fontu przygotował Janusz M. Nowacki.
     
