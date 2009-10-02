@@ -17,7 +17,8 @@ cd ~/public_git/
 git clone git://github.com/⟨twój login na <b>githubie</b>⟩/jblog.git sp
 </pre>
 
-gdzie nazwa katalogu *sp* to skrót od „Środowiska programisty”.
+gdzie nazwa katalogu *sp* to skrót (modulo polskie literki)
+od nazwy wykładu „Środowiska programisty”.
 
 
 ## Jak zacząć?
