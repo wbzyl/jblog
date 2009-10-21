@@ -14,7 +14,7 @@ Cała procedura może wyglądać tak:
 
 <pre>mkdir -p ~/public_git/
 cd ~/public_git/
-git clone git://github.com/⟨twój login na <b>githubie</b>⟩/jblog.git sp
+git clone git@github.co:⟨twój login na <b>githubie</b>⟩/jblog.git sp
 </pre>
 
 gdzie nazwa katalogu *sp* to skrót (modulo polskie literki)
