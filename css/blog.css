@@ -1,5 +1,39 @@
 /* http://www.colourlovers.com/palette/845780/No_idea */
 
+@font-face {
+  font-family: "Cyklop";
+  src: url(fonts/Cyklop-Italic.otf) format("opentype");
+  font-style: italic;
+}
+
+/* text logo */
+
+#header {
+  margin: 18px 0 0;
+}
+
+#links a {
+  text-decoration: none;
+  font: italic 100%/1 "Cyklop", "DejaVu Sans", sans-serif;
+  float: right;
+  margin-top: 6px;
+  color: #5A0405;
+}
+
+#logo {
+  font: italic 256%/1 "Cyklop", "DejaVu Sans", sans-serif;
+  margin-bottom: 24px;
+}
+
+#logo a {
+  text-decoration: none;
+  color: #5A0405;
+}
+
+#logo a:focus, #logo a:hover, #links a:focus, #links a:hover {
+  color: #321494;
+}
+
 html {
   /* http://www.hicksdesign.co.uk/journal/forcing-scrollbars-now-even-better */
   height: 100%; 
