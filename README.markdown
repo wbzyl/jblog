@@ -111,3 +111,13 @@ z logo:
 
 Przegladarka skorzysta z tego fontu o ile obsługuje
 *web fonts*.
+
+Po tych poprawkach w kodzie wykonujemy polecenie:
+
+    git status
+
+i jeśli wszystko jest OK, to:
+
+    git add .
+    git commit -m "gotowy kod z logo tekstowym"
+
