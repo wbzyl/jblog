@@ -66,5 +66,58 @@ nazwę mojego bloga *WB@jBlog*.
 W pliku *SVG* literki składane są fontem *OTF*
 [Cyklop](http://nowacki.strefa.pl/cyklop.html). Komputerową
 wersję tego fontu przygotował Janusz M. Nowacki.
+
+
+## Gałąź *nologo*
     
-Oczywiście można też samemu przygotowac logo.
+Oczywiście można też przygotowac samemu logo. Ale przygotowanie
+fajnego logo może nieco potrwać.
+
+Dlatego dopóki w jakimś programie graficznym nie przygotujemy sobie 
+takiego logo, będziemy korzystać z tekstowego logo.
+
+Na gałęzi *nologo* jest wersja *jBloga* z logo tekstowym.
+Wystarczy zamienić tekst logo w elemencie *a* w plikach
+*default.html* oraz *index.html*
+
+    <div id="logo" class="push-1 span-7">
+      <a href="/sp/">WB@BLOG</a>
+    </div>
+
+aby nowe logo pojawiło się na blogu.
+
+### Krótkie howto z zarządzania gałęziami
+
+Zaczynamy od utworzenia gałęzi i przejścia na nią:
+
+    git branch -a nologo
+
+Sprawdzamy, czy jesteśmy na nowej gałęzi:
+
+    git branch
+    master
+    * nologo
+
+Gwiazdka `*` przy *nologo* pokazuje, że tak.
+
+Dodajemy do arkusza stylów font wykorzystany w pliku png
+z logo:
+
+    @font-face {
+      font-family: "Cyklop";
+      src: url(fonts/Cyklop-Italic.otf) format("opentype");
+      font-style: italic;
+    }
+
+Przegladarka skorzysta z tego fontu o ile obsługuje
+*web fonts*.
+
+Po tych poprawkach w kodzie wykonujemy polecenie:
+
+    git status
+
+i jeśli wszystko jest OK, to:
+
+    git add .
+    git commit -m "gotowy kod z logo tekstowym"
+
