@@ -121,3 +121,6 @@ i jeśli wszystko jest OK, to:
     git add .
     git commit -m "gotowy kod z logo tekstowym"
 
+Pozostaje tylko przesłać gałąź *nologo* na *github.com*:
+
+    git push origin nologo
