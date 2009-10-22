@@ -112,7 +112,7 @@ z logo:
 Przegladarka skorzysta z tego fontu o ile obsługuje
 *web fonts*.
 
-Po tych poprawkach w kodzie wykonujemy polecenie:
+Po tych i kilku innych poprawkach w kodzie wykonujemy polecenie:
 
     git status
 
