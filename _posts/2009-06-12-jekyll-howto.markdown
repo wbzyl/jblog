@@ -14,11 +14,19 @@ title: Jekyll-Blog HOWTO
 
 # {{ page.title }}
 
+
 ## Markdown
 
 Posty wpisujemy używając notacji Markdown.
 Notacja jest opisana przez autora Johna Grubera 
 w witrynie [Daring Fireball](http://daringfireball.net/projects/markdown/syntax).
+
+Na stronie [Markdownr] [] można wpisywać tekst w notacji Markdown
+w jednym okienku, mając w drugim — podgląd na skonwertowany na
+HTMl tekst.
+
+[markdownr]: http://markdownr.com/ "markdown online previewer"
+
 
 ## Kolorowanie kodu
 
