@@ -124,3 +124,19 @@ i jeśli wszystko jest OK, to:
 Pozostaje tylko przesłać gałąź *nologo* na *github.com*:
 
     git push origin nologo
+
+### Jak sklonować gałąź *nologo*
+
+Od wersji 1.6.2 Gita klonujemy zdalną gałąź używając używamy opcji
+*--track*:
+
+    git checkout --track origin/nologo
+
+Oto rezultat:
+
+    git branch -a
+      master
+    * nologo
+      remotes/origin/HEAD -> origin/master
+      remotes/origin/master
+      remotes/origin/nologo
