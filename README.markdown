@@ -127,8 +127,8 @@ Pozostaje tylko przesłać gałąź *nologo* na *github.com*:
 
 ### Jak sklonować gałąź *nologo*
 
-Od wersji 1.6.2 Gita klonujemy zdalną gałąź używając używamy opcji
-*--track*:
+Od wersji 1.6.2 Gita klonujemy zdalną gałąź używając opcji *--track*
+polecenia *git-checkout*:
 
     git checkout --track origin/nologo
 
