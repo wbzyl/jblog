@@ -68,6 +68,11 @@ W pliku *SVG* literki składane są fontem *OTF*
 wersję tego fontu przygotował Janusz M. Nowacki.
 
 
+## Korzystamy z rozszerzeń
+
+Jak? Opisane jest to w [jekyll_ext](http://github.com/rfelix/jekyll_ext).
+
+
 ## Gałąź *nologo*
     
 Oczywiście można też przygotowac samemu logo. Ale przygotowanie
