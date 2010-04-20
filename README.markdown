@@ -95,7 +95,7 @@ aby nowe logo pojawiło się na blogu.
 
 Zaczynamy od utworzenia gałęzi i przejścia na nią:
 
-    git branch -a nologo
+    git checkout -b nologo
 
 Sprawdzamy, czy jesteśmy na nowej gałęzi:
 
@@ -105,8 +105,7 @@ Sprawdzamy, czy jesteśmy na nowej gałęzi:
 
 Gwiazdka `*` przy *nologo* pokazuje, że tak.
 
-Dodajemy do arkusza stylów font wykorzystany w pliku png
-z logo:
+Dodajemy do arkusza stylów font wykorzystany w pliku png z logo:
 
     @font-face {
       font-family: "Cyklop";
@@ -114,8 +113,7 @@ z logo:
       font-style: italic;
     }
 
-Przegladarka skorzysta z tego fontu o ile obsługuje
-*web fonts*.
+Przegladarka skorzysta z tego fontu o ile obsługuje *web fonts*.
 
 Po tych i kilku innych poprawkach w kodzie wykonujemy polecenie:
 
