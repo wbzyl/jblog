@@ -39,7 +39,7 @@ katalogu z blogiem, czyli z katalogu **~/public_git/sp/** polecenie:
 
 Po wykonaniu polecenia blog jest dostępny pod URI:
 
-<pre>http://sigma.ug.edu.pl/~⟨twój login na <b>sigmie</b>⟩/blog
+<pre>http://sigma.inf.ug.edu.pl/~⟨twój login na <b>sigmie</b>⟩/blog
 </pre>
 
 ## Kończymy instalację
@@ -57,7 +57,7 @@ w plikach *_layouts/default.html* i :*_layouts/index.html*
 w pliku *atom.xml*:
 
     <title>Imię Nazwisko</title>
-    <link href="http://sigma.ug.edu.pl/~login_na_sigmie/atom.xml" rel="self"/>
+    <link href="http://sigma.inf.ug.edu.pl/~login_na_sigmie/atom.xml" rel="self"/>
     ...
 
 Oczywiście można też przygotowac samemu logo. Ale przygotowanie
