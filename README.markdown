@@ -60,36 +60,33 @@ w pliku *atom.xml*:
     <link href="http://sigma.ug.edu.pl/~login_na_sigmie/atom.xml" rel="self"/>
     ...
 
-Logo przygotowałem w programie *inkscape*. 
-Plik *images/logo.svg* w formacie *SVG* zawiera 
-nazwę mojego bloga *WB@jBlog*.
-W pliku *SVG* literki składane są fontem *OTF*
-[Cyklop](http://nowacki.strefa.pl/cyklop.html). Komputerową
-wersję tego fontu przygotował Janusz M. Nowacki.
+Oczywiście można też przygotowac samemu logo. Ale przygotowanie
+fajnego logo może nieco potrwać. Dlatego ta wersja ma logo tekstowe.
 
+Aby je zmienić wystarczy zamienić tekst logo w elemencie *a* w plikach
+*default.html* oraz *index.html*
+
+    <div id="logo" class="push-1 span-7">
+      <a href="/blog/">MÓJ@BLOG</a>
+    </div>
 
 ## Korzystamy z rozszerzeń
 
 Jak? Opisane jest to w [jekyll_ext](http://github.com/rfelix/jekyll_ext).
 
 
-## Gałąź *nologo*
+## Gałąź *svg*
     
-Oczywiście można też przygotowac samemu logo. Ale przygotowanie
-fajnego logo może nieco potrwać.
+Zawiera wersję jBloga, która używa grafiki z logo.
+Logo to wykonałem w programie *inkscape*. 
 
-Dlatego dopóki w jakimś programie graficznym nie przygotujemy sobie 
-takiego logo, będziemy korzystać z tekstowego logo.
+Plik *images/logo.svg* w formacie *SVG* zawiera 
+nazwę mojego bloga *WB@jBlog*.
 
-Na gałęzi *nologo* jest wersja *jBloga* z logo tekstowym.
-Wystarczy zamienić tekst logo w elemencie *a* w plikach
-*default.html* oraz *index.html*
+W pliku *SVG* literki składane są fontem *OTF*
+[Cyklop](http://nowacki.strefa.pl/cyklop.html). Komputerową
+wersję tego fontu przygotował Janusz M. Nowacki.
 
-    <div id="logo" class="push-1 span-7">
-      <a href="/sp/">MÓJ@BLOG</a>
-    </div>
-
-aby nowe logo pojawiło się na blogu.
 
 ### Krótkie howto z zarządzania gałęziami
 
