@@ -88,7 +88,7 @@ W pliku *SVG* literki składane są fontem *OTF*
 wersję tego fontu przygotował Janusz M. Nowacki.
 
 
-### Krótkie howto z zarządzania gałęziami
+## Krótka instrukcja JTZ z zarządzania gałęziami
 
 Zaczynamy od utworzenia gałęzi i przejścia na nią:
 
