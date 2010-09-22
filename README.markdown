@@ -44,7 +44,7 @@ Po wykonaniu polecenia blog jest dostępny pod URI:
 
 ## Kończymy instalację
 
-W *jBlogu* jest kilka napisów, które należy wymienić na swoje,
+W *jBlogu* jest kilka napisów, które pewnie należy wymienić,
 na przykład, w pliku *index.html* znajdziemy:
 
     title: Mój_Blog
