@@ -1,9 +1,10 @@
 /* http://www.colourlovers.com/palette/845780/No_idea */
 
 @font-face {
-  font-family: "Cyklop";
-  src: url(fonts/Cyklop-Italic.otf) format("opentype");
-  font-style: italic;
+  font-family: Cyklop;
+  src: url(Cyklop-Italic.eot);
+  src: local('☺'), 
+          url(Cyklop-Italic.otf) format("opentype");
 }
 
 /* text logo */
@@ -14,14 +15,16 @@
 
 #links a {
   text-decoration: none;
-  font: italic 100%/1 "Cyklop", "DejaVu Sans", sans-serif;
+  font: 100%/1 "Cyklop", "DejaVu Sans", sans-serif;
+  font-style: italic;
   float: right;
   margin-top: 6px;
   color: #5A0405;
 }
 
 #logo {
-  font: italic 256%/1 "Cyklop", "DejaVu Sans", sans-serif;
+  font: 256%/1 "Cyklop", "DejaVu Sans", sans-serif;
+  font-style: italic;
   margin-bottom: 24px;
 }
 
