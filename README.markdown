@@ -35,11 +35,11 @@ na przykład:
 Po napisaniu posta generujemy statyczną wersję bloga wykonując z
 katalogu z blogiem, czyli z katalogu **~/public_git/sp/** polecenie:
 
-    jekyll ~/public_html/sp
+    jekyll ~/public_html/blog
 
 Po wykonaniu polecenia blog jest dostępny pod URI:
 
-<pre>http://sigma.inf.ug.edu.pl/~⟨twój login na <b>sigmie</b>⟩/sp/
+<pre>http://sigma.ug.edu.pl/~⟨twój login na <b>sigmie</b>⟩/blog
 </pre>
 
 ## Kończymy instalację
@@ -47,17 +47,17 @@ Po wykonaniu polecenia blog jest dostępny pod URI:
 W *jBlogu* jest kilka napisów, które należy wymienić na swoje,
 na przykład, w pliku *index.html* znajdziemy:
 
-    title: WB_Blog
+    title: Mój_Blog
 
 w plikach *_layouts/default.html* i :*_layouts/index.html*
 
-    <meta name="author" content="Włodek Bzyl" />.
+    <meta name="author" content="Imię Nazwisko" />.
     ...
  
 w pliku *atom.xml*:
 
-    <title>Włodek Bzyl</title>
-    <link href="http://inf.ug.edu.pl/~wbzyl/atom.xml" rel="self"/>
+    <title>Imię Nazwisko</title>
+    <link href="http://sigma.ug.edu.pl/~login_na_sigmie/atom.xml" rel="self"/>
     ...
 
 Logo przygotowałem w programie *inkscape*. 
@@ -86,7 +86,7 @@ Wystarczy zamienić tekst logo w elemencie *a* w plikach
 *default.html* oraz *index.html*
 
     <div id="logo" class="push-1 span-7">
-      <a href="/sp/">WB@BLOG</a>
+      <a href="/sp/">MÓJ@BLOG</a>
     </div>
 
 aby nowe logo pojawiło się na blogu.
