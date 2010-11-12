@@ -86,7 +86,8 @@ Wystarczy zamienić tekst logo w elemencie *a* w plikach
 
 aby nowe logo pojawiło się na blogu.
 
-### Krótkie howto z zarządzania gałęziami
+
+### Krótka instrukacja JTZ z zarządzania gałęziami
 
 Zaczynamy od utworzenia gałęzi i przejścia na nią:
 
