@@ -125,10 +125,16 @@ Pozostaje tylko przesłać gałąź *nologo* na *github.com*:
 
     git push origin nologo
 
-### Jak sklonować gałąź *nologo*
 
-Od wersji 1.6.2 Gita klonujemy zdalną gałąź używając opcji *--track*
-polecenia *git-checkout*:
+## Tracking branches
+
+Do projektu, który sforkowaliśmy jakiś czas temu, autor dodał gałąź.
+
+Jak w swoim projekcie dodać odgałęzienie na które będziemy 
+pobierać nowe wersje pojawiające się na zdalniej gałęzi.
+
+Od wersji 1.6.2 Gita tworzymy *tracking branch* używając opcji *--track*.
+Oto przykład:
 
     git checkout --track origin/nologo
 
