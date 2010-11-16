@@ -138,7 +138,17 @@ Oto przykład:
 
     git checkout --track origin/nologo
 
-Oto rezultat:
+Albo, sami dopisujemy do pliku *.git/config*:
+
+    [branch "nologo"]
+	remote = origin
+	merge = refs/heads/nologo
+
+i, jeśli nie istnieje, tworzymy gałąź *nologo*:
+
+    git branch nologo
+
+Oto rezultaty:
 
     git branch -a
       master
