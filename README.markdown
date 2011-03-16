@@ -153,7 +153,7 @@ Po jakimś czasie zauważamy, że technomancy dodał nową gałąź **v2**:
 
 Oczywiście, natychmiast chcielibyśmy sprawdzic jak działa v2.
 Najwygodniej będzie dodać do swojego repozytorium nową gałąź
-na którą będziemy pobierać nowe wersje z repozytorium technomancy.
+na którą będziemy pobierać nowe wersje **v2** z repozytorium technomancy.
 
 W tym celu tworzymy tzw. *tracking branch*:
 
