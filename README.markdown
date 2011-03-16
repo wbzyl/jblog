@@ -1,4 +1,4 @@
-# Szablon jekyll-bloga 
+# Szablon jekyll-bloga
 
 Dostosowany do konfiguracji serwera *Sigma* szablon bloga.
 Statyczne strony bloga generujemy za pomocą programu *jekyll*.
@@ -53,7 +53,7 @@ w plikach *_layouts/default.html* i :*_layouts/index.html*
 
     <meta name="author" content="Imię Nazwisko" />.
     ...
- 
+
 w pliku *atom.xml*:
 
     <title>Imię Nazwisko</title>
@@ -76,11 +76,11 @@ Jak? Opisane jest to w [jekyll_ext](http://github.com/rfelix/jekyll_ext).
 
 
 ## Gałąź *svg*
-    
-Zawiera wersję jBloga, która używa grafiki z logo.
-Logo to wykonałem w programie *inkscape*. 
 
-Plik *images/logo.svg* w formacie *SVG* zawiera 
+Zawiera wersję jBloga, która używa grafiki z logo.
+Logo to wykonałem w programie *inkscape*.
+
+Plik *images/logo.svg* w formacie *SVG* zawiera
 nazwę mojego bloga *WB@jBlog*.
 
 W pliku *SVG* literki składane są fontem *OTF*
@@ -128,31 +128,45 @@ Pozostaje tylko przesłać gałąź *nologo* na *github.com*:
 
 ## Tracking branches
 
-Do projektu, który sforkowaliśmy jakiś czas temu, autor dodał gałąź.
+Po sforkowaniu projektu, na przykład
+[emacs starter kit](https://github.com/technomancy/emacs-starter-kit)
+którego autorem jest *technomancy*, klonujemy repozytorium
+projektu na swój komputer:
 
-Jak w swoim projekcie dodać odgałęzienie na które będziemy 
-pobierać nowe wersje pojawiające się na zdalniej gałęzi.
+    git clone git@github.com:wbzyl/emacs-starter-kit.git
 
-Od wersji 1.6.2 Gita tworzymy *tracking branch* używając opcji *--track*.
-Oto przykład:
+Jak nakazują dobre obyczaje, dodajemy oryginalne repozytorium
+do swojego jako *remote*:
 
-    git checkout --track origin/nologo
+    git remote technomancy git://github.com/technomancy/emacs-starter-kit.git
 
-Albo, sami dopisujemy do pliku *.git/config*:
+i od razu ściągamy oryginał:
 
-    [branch "nologo"]
-	remote = origin
-	merge = refs/heads/nologo
+    git fetch technomancy
 
-i, jeśli nie istnieje, tworzymy gałąź *nologo*:
+Po jakimś czasie zauważamy, że technomancy dodał nową gałąź **v2**:
 
-    git branch nologo
+    origin/HEAD -> origin/master
+    origin/master
+    technomancy/master
+    technomancy/v2
 
-Oto rezultaty:
+Oczywiście, natychmiast chcielibyśmy sprawdzic jak działa v2.
+Najwygodniej będzie dodać do swojego repozytorium nową gałąź
+na którą będziemy pobierać nowe wersje z repozytorium technomancy.
+
+W tym celu tworzymy tzw. *tracking branch*:
+
+    git checkout --track technomancy/v2
+
+Teraz polecenie:
 
     git branch -a
       master
-    * nologo
+    * v2
       remotes/origin/HEAD -> origin/master
       remotes/origin/master
-      remotes/origin/nologo
+      remotes/technomancy/master
+      remotes/technomancy/v2
+
+pokazuje, że faktycznie jesteśmy jesteśmy na nowej gałęzi.
