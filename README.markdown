@@ -151,7 +151,7 @@ Po jakimś czasie zauważamy, że technomancy dodał nową gałąź **v2**:
     technomancy/master
     technomancy/v2
 
-Oczywiście, natychmiast chcielibyśmy sprawdzic jak działa v2.
+Oczywiście, natychmiast chcielibyśmy sprawdzić jak działa v2.
 Najwygodniej będzie dodać do swojego repozytorium nową gałąź
 na którą będziemy pobierać nowe wersje **v2** z repozytorium technomancy.
 
@@ -170,3 +170,8 @@ Teraz polecenie:
       remotes/technomancy/v2
 
 pokazuje, że faktycznie jesteśmy jesteśmy na nowej gałęzi.
+
+Różnice w kodzie między gałęziami można sprawdzić bez tworzenia
+nowej gałęzi:
+
+    git diff master..technomancy/master
