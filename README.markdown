@@ -138,7 +138,7 @@ projektu na swój komputer:
 Jak nakazują dobre obyczaje, dodajemy oryginalne repozytorium
 do swojego jako *remote*:
 
-    git remote technomancy git://github.com/technomancy/emacs-starter-kit.git
+    git remote add technomancy git://github.com/technomancy/emacs-starter-kit.git
 
 i od razu ściągamy oryginał:
 
