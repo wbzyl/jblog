@@ -158,6 +158,7 @@ na którą będziemy pobierać nowe wersje **v2** z repozytorium technomancy.
 W tym celu tworzymy tzw. *tracking branch*:
 
     git checkout --track technomancy/v2
+    git checkout -b v2.x --track technomancy/v2 # lub tak, zmieniamy nazwę gałęzi na v2.x 
 
 Teraz polecenie:
 
