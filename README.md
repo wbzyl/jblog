@@ -35,7 +35,7 @@ katalogu z blogiem, czyli z katalogu **~/public_git/blog/** polecenie:
 
 Jeśli wszystko jest OK, to wdrażamy bloga, np. na Sigmę:
 
-    rake deploy
+    rake deploy          # uaktualnić DESTINATION
 
 Po wykonaniu polecenia blog jest dostępny pod URI:
 
