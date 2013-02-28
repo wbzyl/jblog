@@ -1,10 +1,9 @@
 # Szablon jekyll-bloga
 
 Dostosowany do konfiguracji serwera *Sigma* szablon bloga.
-Statyczne strony bloga generujemy za pomocą programu *jekyll*.
 
 
-## Instalacja
+## Instalacja szablonu
 
 Klikamy w ikonkę **fork** i natępnie klonujemy sforkowanego bloga
 na swoje konto na serwerze *Sigma*. Klona umieszczamy w katalogu
@@ -14,11 +13,8 @@ Cała procedura może wyglądać tak:
 
 <pre>mkdir -p ~/public_git/
 cd ~/public_git/
-git clone git@github.com:⟨twój login na <b>githubie</b>⟩/jblog.git sp
+git clone git@github.com:⟨twój login na <b>githubie</b>⟩/jblog.git blog
 </pre>
-
-gdzie nazwa katalogu *sp* to skrót (modulo polskie literki)
-od nazwy wykładu „Środowisko programisty”.
 
 
 ## Jak zacząć?
@@ -26,11 +22,11 @@ od nazwy wykładu „Środowisko programisty”.
 Wpisy do bloga umieszczamy w katalogu `_posts`.
 Nazwy plików z postami tworzymy według schematu:
 
-    rok-miesiąc-dzień-tytuł.markdown
+    rok-miesiąc-dzień-tytuł.md
 
 na przykład:
 
-    2009-06-12-jekyll-howto.markdown
+    2009-06-12-jekyll-howto.md
 
 Po napisaniu posta generujemy statyczną wersję bloga wykonując z
 katalogu z blogiem, czyli z katalogu **~/public_git/sp/** polecenie:
@@ -158,7 +154,7 @@ na którą będziemy pobierać nowe wersje **v2** z repozytorium technomancy.
 W tym celu tworzymy tzw. *tracking branch*:
 
     git checkout --track technomancy/v2
-    git checkout -b v2.x --track technomancy/v2 # lub tak, zmieniamy nazwę gałęzi na v2.x 
+    git checkout -b v2.x --track technomancy/v2 # lub tak, zmieniamy nazwę gałęzi na v2.x
 
 Teraz polecenie:
 

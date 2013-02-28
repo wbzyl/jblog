@@ -4,7 +4,7 @@ title: Jekyll-Blog HOWTO
 ---
 
 <blockquote>
-<img src="../../../../images/alan-perlis.gif" alt="[Alan Perlis]" />
+<img src="/images/alan-perlis.png" alt="[Alan Perlis]" />
 <p>
   Dealing with failure is easy: Work hard to improve. Success is also
   easy to handle: You've solved the wrong problem. Work hard to improve.
@@ -18,7 +18,7 @@ title: Jekyll-Blog HOWTO
 ## Markdown
 
 Posty wpisujemy używając notacji Markdown.
-Notacja jest opisana przez autora Johna Grubera 
+Notacja jest opisana przez autora Johna Grubera
 w witrynie [Daring Fireball](http://daringfireball.net/projects/markdown/syntax).
 
 Na stronie [Markdownr] [] można wpisywać tekst w notacji Markdown
