@@ -1,19 +1,17 @@
 # Szablon jekyll-bloga
 
-Dostosowany do konfiguracji serwera *Sigma* szablon bloga.
+Dostosowany do konfiguracji serwera *Sigma* szablon
+jekyll-bloga.
 
 
 ## Instalacja szablonu
 
 Klikamy w ikonkę **fork** i natępnie klonujemy sforkowanego bloga
-na swoje konto na serwerze *Sigma*. Klona umieszczamy w katalogu
-*public_git*, który musimy wcześniej utworzyć.
+na swoje konto na serwerze *Sigma*.
 
 Cała procedura może wyglądać tak:
-
-<pre>mkdir -p ~/public_git/
-cd ~/public_git/
-git clone git@github.com:⟨twój login na <b>githubie</b>⟩/jblog.git blog
+<pre>git clone git@github.com:⟨twój login na <b>githubie</b>⟩/jblog.git blog
+cd blog
 </pre>
 
 
@@ -28,16 +26,16 @@ na przykład:
 
     2013-02-29-jekyll-howto.md
 
-Po napisaniu posta generujemy statyczną wersję bloga wykonując z
-katalogu z blogiem, czyli z katalogu **~/public_git/blog/** polecenie:
+Po napisaniu posta generujemy statyczną wersję bloga wykonując
+z katalogu z blogiem, czyli z katalogu **blog/** polecenie:
 
     jekyll --server PORT # testowanie, localhost:PORT
 
-Jeśli wszystko jest OK, to wdrażamy bloga, np. na Sigmę:
+Jeśli wszystko jest OK, to wdrażamy bloga na Sigmę:
 
     rake deploy          # uaktualnić DESTINATION
 
-Po wykonaniu polecenia blog jest dostępny pod URI:
+Po wykonaniu polecenia blog jest dostępny tutaj:
 
 <pre>http://sigma.inf.ug.edu.pl/~⟨twój login na <b>sigmie</b>⟩/blog
 </pre>

@@ -48,8 +48,9 @@ def foo
 end
 {% endhighlight %}
 
-Kod jest kolorowany przez narzędzie
+Aby podkolorować kod Jekyll wywołuje program
 [pygmentize](http://pygments.org/docs/cmdline/).
+
 Wykonanie polecenia:
 
     pygmentize -L lexers
