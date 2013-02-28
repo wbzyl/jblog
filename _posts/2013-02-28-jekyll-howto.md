@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Jekyll-Blog HOWTO
+tags: [jekyll, example]
+description: "przykładowy post"
 ---
 
 <blockquote>

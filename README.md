@@ -37,7 +37,7 @@ Jeśli wszystko jest OK, to wdrażamy bloga na Sigmę:
 
 Po wykonaniu polecenia blog jest dostępny tutaj:
 
-<pre>http://sigma.inf.ug.edu.pl/~⟨twój login na <b>sigmie</b>⟩/blog
+<pre>http://sigma.ug.edu.pl/~⟨twój login na <b>sigmie</b>⟩/blog
 </pre>
 
 
